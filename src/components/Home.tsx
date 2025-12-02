@@ -64,12 +64,12 @@ function Home() {
             {/* Pressure Text */}
             <div className="absolute top-1/3 left-1/2 
                 -translate-x-1/2 -translate-y-1/2
+                flex justify-center items-center
                 w-[75%]
                 h-[200px]
-                flex justify-center items-center
-                z-3 select-none"
+                z-3 select-none fade-in"
             >
-                <TextPressure className="w-full z-3"/>
+                <TextPressure className="w-full z-3 "/>
             </div>
 
             {/* Text Top image */}
@@ -83,7 +83,7 @@ function Home() {
             />
 
             {/* Text box */}
-            <div className="absolute top-[70%] w-full h-[120px] flex justify-center">
+            <div className="absolute top-[70%] w-full h-[120px] flex justify-center fade-in">
                 <div className="w-3/4 px-5 flex justify-between">
                     {/* Left text box */}
                     <div className="flex flex-col">
