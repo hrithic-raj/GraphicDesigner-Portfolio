@@ -23,7 +23,7 @@ function Home() {
                 draggable={false}
                 onDragStart={(e) => e.preventDefault()}
                 onMouseDown={(e) => e.preventDefault()}
-                className="w-full h-full -translate-y-20 p-20 object-cover pointer-events-none select-none z-0"
+                className="w-full h-full -translate-y-10 p-10 2xl:-translate-y-20 3xl:p-20 object-cover pointer-events-none select-none z-0"
             />
             {/* Glow Left */}
             <img 
@@ -78,7 +78,7 @@ function Home() {
                 draggable={false}
                 onDragStart={(e) => e.preventDefault()}
                 onMouseDown={(e) => e.preventDefault()}
-                className="absolute object-cover p-20 top-0 -translate-y-20 pointer-events-none select-none z-5 w-full h-full" 
+                className="absolute top-0 object-cover -translate-y-10 p-10 2xl:-translate-y-20 2xl:p-20 pointer-events-none select-none z-5 w-full h-full" 
                 alt="" 
             />
 
