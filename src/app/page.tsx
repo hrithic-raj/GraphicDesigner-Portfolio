@@ -80,8 +80,22 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="absolute bottom-0 left-1/8 bg-[#0F0F0F] w-3/4 h-14 z-10">
-
+        <div className="flex gap-36 justify-center items-center absolute bottom-0 left-1/8 bg-[#0F0F0F] w-3/4 h-14 z-10">
+          <p className="font-normal text-[16px] leading-5 tracking-[0.02em] text-[#676767] text-center font-montserrat">
+            Photoshop
+          </p>
+          <p className="font-normal text-[16px] leading-5 tracking-[0.02em] text-[#676767] text-center font-montserrat">
+            Illustrator
+          </p>
+          <p className="font-normal text-[16px] leading-5 tracking-[0.02em] text-[#676767] text-center font-montserrat">
+            Figma
+          </p>
+          <p className="font-normal text-[16px] leading-5 tracking-[0.02em] text-[#676767] text-center font-montserrat">
+            Premiere pro
+          </p>
+          <p className="font-normal text-[16px] leading-5 tracking-[0.02em] text-[#676767] text-center font-montserrat">
+            After Effect
+          </p>
         </div>
 
       </div>
