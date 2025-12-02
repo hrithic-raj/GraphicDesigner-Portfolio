@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="h-screen">
       <Navbar/>
-      <div className="relative h-full bg-[#000000] overflow-hidden">
+      <div id="home" className="relative h-full bg-[#000000] overflow-hidden">
 
         {/* Background image behind everything */}
         <img
@@ -85,8 +85,8 @@ export default function Home() {
         </div>
 
       </div>
-      <div className="h-screen w-full bg-[#00000] border-b-2"></div>
-      <div className="h-screen w-full bg-[#00000] border-b-2"></div>
+      <div id="about" className="h-screen w-full bg-[#00000] border-b-2"></div>
+      <div id="portfolio" className="h-screen w-full bg-[#00000] border-b-2"></div>
 
     </div>
   );
