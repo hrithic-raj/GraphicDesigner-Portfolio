@@ -9,7 +9,7 @@ const Navbar = () => {
       backdrop-filter bg-opacity-30
       transition-all duration-300
     ">
-      <ul className="flex gap-12 text-white font-montserrat text-[16px] font-[montserrat] font-normal">
+      <ul className="flex gap-12 text-white font-montserrat text-[16px] font-[montserrat] font-normal select-none">
         
         <li>
           <a href="#home" className="nav-link">

@@ -1,3 +1,4 @@
+'use client'
 import bg from '../assets/To site 1.jpg';
 import cutPhoto from '../assets/To site cut.png';
 import glowLeft from '../assets/glow-left.png';
@@ -8,34 +9,55 @@ import TextPressure from "@/components/TextPressure";
 
 function Home() {
   return (
-        <div id="home" className="relative h-full bg-[#000000] overflow-hidden">
+        <div 
+            id="home" 
+            className="relative h-full bg-[#000000] overflow-hidden" 
+            draggable={false}
+            onDragStart={(e) => e.preventDefault()}
+            onMouseDown={(e) => e.preventDefault()} 
+        >
 
             {/* Background image behind everything */}
             <img
                 src={bg.src}
+                draggable={false}
+                onDragStart={(e) => e.preventDefault()}
+                onMouseDown={(e) => e.preventDefault()}
                 className="w-full h-full -translate-y-20 p-20 object-cover pointer-events-none select-none z-0"
             />
             {/* Glow Left */}
             <img 
                 src={glowLeft.src}
+                draggable={false}
+                onDragStart={(e) => e.preventDefault()}
+                onMouseDown={(e) => e.preventDefault()}
                 className="absolute top-0 left-0 object-contain pointer-events-none select-none z-1"
             />
 
             {/* Glow Right */}
             <img 
                 src={glowRight.src}
+                draggable={false}
+                onDragStart={(e) => e.preventDefault()}
+                onMouseDown={(e) => e.preventDefault()}
                 className="absolute top-0 right-0 object-contain pointer-events-none select-none z-1"
             />
 
             {/* Lines Left */}
             <img
                 src={linesLeft.src}
+                draggable={false}
+                onDragStart={(e) => e.preventDefault()}
+                onMouseDown={(e) => e.preventDefault()}
                 className="absolute top-0 left-0 object-contain pointer-events-none select-none mix-blend-overlay opacity-90 z-2"
             />
 
             {/* Lines Right */}
             <img
                 src={linesRight.src}
+                draggable={false}
+                onDragStart={(e) => e.preventDefault()}
+                onMouseDown={(e) => e.preventDefault()}
                 className="absolute top-0 right-0 object-contain pointer-events-none select-none mix-blend-overlay opacity-90 z-2"
             />
 
@@ -45,13 +67,20 @@ function Home() {
                 w-[75%]
                 h-[200px]
                 flex justify-center items-center
-                z-3"
+                z-3 select-none"
             >
                 <TextPressure className="w-full z-3"/>
             </div>
 
             {/* Text Top image */}
-            <img src={cutPhoto.src} className="absolute object-cover p-20 top-0 -translate-y-20 pointer-events-none select-none z-5 w-full h-full" alt="" />
+            <img 
+                src={cutPhoto.src} 
+                draggable={false}
+                onDragStart={(e) => e.preventDefault()}
+                onMouseDown={(e) => e.preventDefault()}
+                className="absolute object-cover p-20 top-0 -translate-y-20 pointer-events-none select-none z-5 w-full h-full" 
+                alt="" 
+            />
 
             {/* Text box */}
             <div className="absolute top-[70%] w-full h-[120px] flex justify-center">
