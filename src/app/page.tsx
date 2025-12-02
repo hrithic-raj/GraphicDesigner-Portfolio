@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar";
-// import bg from '../assets/bg.png';
+import bg from '../assets/bg.png';
 import glowLeft from '../assets/glow-left.png';
 import glowRight from '../assets/glow-right.png';
 import linesLeft from '../assets/left1.png';
@@ -11,6 +11,11 @@ export default function Home() {
       <Navbar/>
       <div className="relative h-screen bg-[#000000] overflow-hidden">
 
+        {/* Background image behind everything */}
+        <img
+          src={bg.src}
+          className="inset-0 w-full h-full object-cover pointer-events-none select-none -z-10"
+        />
         {/* Glow Left */}
         <img 
           src={glowLeft.src}
