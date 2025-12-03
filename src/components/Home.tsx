@@ -11,7 +11,7 @@ function Home() {
   return (
         <div 
             id="home" 
-            className="relative h-full bg-[#000000] overflow-hidden" 
+            className="relative h-screen bg-[#000000] overflow-hidden" 
             draggable={false}
             onDragStart={(e) => e.preventDefault()}
             onMouseDown={(e) => e.preventDefault()} 
