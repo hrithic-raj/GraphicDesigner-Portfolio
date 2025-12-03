@@ -12,16 +12,165 @@ function Portfolio() {
       />
       <div className="flex justify-center items-center h-full w-full">
         <div className="grid grid-cols-2 grid-rows-2 h-[60%] w-3/4 gap-5">
-          {/* <div className="border w-full h-full rounded-4xl 
-            bg-linear-to-br from-[#000000] from-0% via-[#000000] via-50% to-[#FF6600] to-100%">
-          </div> */}
-          <div className="bg-[url('../assets/gradient-left.png')] bg-cover bg-center rounded-4xl border border-[#FF6600]/50">
+          <div className="
+            group
+            flex justify-center items-center
+            bg-[url('../assets/gradient-left.png')] bg-cover bg-center
+            rounded-4xl border border-[#FF6600]/50
+          ">
+            <div className="h-1/3 w-1/2 flex justify-center items-center">
+              <div className="
+                flex flex-col items-center
+                h-full w-full
+                transition-transform duration-300 ease-out
+                group-hover:scale-110 lg:group-hover:scale-115
+              ">
+                
+                {/* MAIN TITLE */}
+                <p className="
+                  text-white
+                  font-[montserrat] font-medium
+                  leading-none
+                  text-3xl-monitor
+                  text-[36px] sm:text-[42px] md:text-[50px] lg:text-[50px]
+                  whitespace-nowrap
+                ">
+                  Branding.
+                </p>
+
+                {/* SUBTEXT */}
+                <p className="
+                  text-[#FF6600]/80
+                  font-[montserrat] font-light
+                  leading-none
+                  text-[8px] sm:text-[9px] md:text-[10px]
+                  whitespace-nowrap
+                ">
+                  Brand Identities I Created
+                </p>
+
+              </div>
+            </div>
           </div>
-          <div className="bg-[url('../assets/gradient-right.png')] bg-cover bg-center rounded-4xl border border-[#FF6600]/50">
+          <div className="
+            group
+            flex justify-center items-center
+            bg-[url('../assets/gradient-right.png')] bg-cover bg-center
+            rounded-4xl border border-[#FF6600]/50
+          ">
+            <div className="h-1/3 w-1/2 flex justify-center items-center">
+              <div className="
+                flex flex-col items-center
+                h-full w-full
+                transition-transform duration-300 ease-out
+                group-hover:scale-110 lg:group-hover:scale-115
+              ">
+                
+                {/* MAIN TITLE */}
+                <p className="
+                  text-white
+                  font-[montserrat] font-medium
+                  leading-none
+                  text-3xl-monitor
+                  text-[36px] sm:text-[42px] md:text-[50px] lg:text-[50px]
+                  whitespace-nowrap
+                ">
+                  Posters.
+                </p>
+
+                {/* SUBTEXT */}
+                <p className="
+                  text-[#FF6600]/80
+                  font-[montserrat] font-light
+                  leading-none
+                  text-[8px] sm:text-[9px] md:text-[10px]
+                  whitespace-nowrap
+                ">
+                  Posters that I made for various Brands
+                </p>
+
+              </div>
+            </div>
           </div>
-          <div className="bg-[url('../assets/gradient-left.png')] bg-cover bg-center rounded-4xl border border-[#FF6600]/50">
+          <div className="
+            group
+            flex justify-center items-center
+            bg-[url('../assets/gradient-left.png')] bg-cover bg-center
+            rounded-4xl border border-[#FF6600]/50
+          ">
+            <div className="h-1/3 w-1/2 flex justify-center items-center">
+              <div className="
+                flex flex-col items-center
+                h-full w-full
+                transition-transform duration-300 ease-out
+                group-hover:scale-110 lg:group-hover:scale-115
+              ">
+                
+                {/* MAIN TITLE */}
+                <p className="
+                  text-white
+                  font-[montserrat] font-medium
+                  leading-none
+                  text-3xl-monitor
+                  text-[36px] sm:text-[42px] md:text-[50px] lg:text-[50px]
+                  whitespace-nowrap
+                ">
+                  Videos.
+                </p>
+
+                {/* SUBTEXT */}
+                <p className="
+                  text-[#FF6600]/80
+                  font-[montserrat] font-light
+                  leading-none
+                  text-[8px] sm:text-[9px] md:text-[10px]
+                  whitespace-nowrap
+                ">
+                  Videos that I made for various company
+                </p>
+
+              </div>
+            </div>
           </div>
-          <div className="bg-[url('../assets/gradient-right.png')] bg-cover bg-center rounded-4xl border border-[#FF6600]/50">
+          <div className="
+            group
+            flex justify-center items-center
+            bg-[url('../assets/gradient-right.png')] bg-cover bg-center
+            rounded-4xl border border-[#FF6600]/50
+          ">
+            <div className="h-1/3 w-1/2 flex justify-center items-center">
+              <div className="
+                flex flex-col items-center justify-center
+                h-full w-full
+                transition-transform duration-300 ease-out
+                group-hover:scale-110 lg:group-hover:scale-115
+              ">
+                
+                {/* MAIN TITLE */}
+                <p className="
+                  text-white
+                  font-[montserrat] font-medium
+                  leading-none
+                  text-[36px] sm:text-[42px] md:text-[50px] lg:text-[45px]
+                  whitespace-nowrap
+                  text-3xl-monitor
+                ">
+                  Animations.
+                </p>
+
+                {/* SUBTEXT */}
+                <p className="
+                  text-[#FF6600]/80
+                  font-[montserrat] font-light
+                  leading-none
+                  text-[8px] sm:text-[9px] md:text-[10px]
+                  whitespace-nowrap
+                ">
+                  Animation & Motion Graphics that i made for various Brands 
+                </p>
+
+              </div>
+            </div>
           </div>
         </div>
       </div>

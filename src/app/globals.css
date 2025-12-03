@@ -203,3 +203,10 @@ body {
   0% { translate: -220%; }
   100% { translate: 220%; }
 }
+
+
+@media (min-width: 1700px) {
+  .text-3xl-monitor {
+    font-size: 65px; /* monitor size */
+  }
+}
