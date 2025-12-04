@@ -1,9 +1,9 @@
 'use client';
-import icon1 from '../assets/footer-icon1.png'
-import icon2 from '../assets/footer-icon2.png'
-import icon3 from '../assets/footer-icon3.png'
-import icon4 from '../assets/footer-icon4.png'
-import icon5 from '../assets/footer-icon5.png'
+import icon1 from '../assets/footer-icon3.svg'
+import icon2 from '../assets/footer-icon4.svg'
+import icon3 from '../assets/footer-icon5.svg'
+import icon4 from '../assets/footer-icon2.svg'
+import icon5 from '../assets/footer-icon1.svg'
 function Footer() {
   return (
     <div className='w-full h-[130px] flex flex-col items-center'>
