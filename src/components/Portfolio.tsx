@@ -15,13 +15,13 @@ function Portfolio() {
         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 object-contain pointer-events-none select-none z-1"
       />
       <div className="flex justify-center items-center h-full w-full">
-        <div className="grid grid-cols-2 grid-rows-2 h-[60%] w-3/4 gap-5">
+        <div className="grid grid-cols-2 grid-rows-2 h-[60%] w-3/4 gap-5 select-none">
           <div className="
             group relative
             flex justify-center items-center
             bg-[url('../assets/gradient-left.png')] bg-cover bg-center
             rounded-4xl border border-[#FF6600]/50
-            overflow-hidden
+            overflow-hidden cursor-pointer
           ">
             <div className="h-1/3 w-1/2 flex justify-center items-center">
               <div className="
@@ -60,11 +60,17 @@ function Portfolio() {
               src={qube1Left.src} 
               alt="" 
               className='qube-size-3xl-monitor absolute top-0 left-0 opacity-70 -translate-y-1 -translate-x-1 group-hover:scale-130 group-hover:-translate-x-7 transition-transform duration-300 ease-out'
+              draggable={false}
+              onDragStart={(e) => e.preventDefault()}
+              onMouseDown={(e) => e.preventDefault()}
             />
             <img 
               src={qube1Right.src} 
               alt="" 
               className='qube-size-3xl-monitor absolute bottom-0 right-0 opacity-70 translate-y-4 translate-x-4 group-hover:scale-130 group-hover:translate-x-7 transition-transform duration-300 ease-out'
+              draggable={false}
+              onDragStart={(e) => e.preventDefault()}
+              onMouseDown={(e) => e.preventDefault()}
             />
           </div>
           <div className="
@@ -72,7 +78,7 @@ function Portfolio() {
             flex justify-center items-center
             bg-[url('../assets/gradient-right.png')] bg-cover bg-center
             rounded-4xl border border-[#FF6600]/50
-            overflow-hidden
+            overflow-hidden cursor-pointer
           ">
             <div className="h-1/3 w-1/2 flex justify-center items-center">
               <div className="
@@ -111,11 +117,17 @@ function Portfolio() {
               src={qube2Left.src} 
               alt="" 
               className='qube-size-3xl-monitor absolute top-0 left-0 opacity-70 -translate-y-4 -translate-x-4 group-hover:scale-130 group-hover:-translate-x-7 transition-transform duration-300 ease-out'
+              draggable={false}
+              onDragStart={(e) => e.preventDefault()}
+              onMouseDown={(e) => e.preventDefault()}
             />
             <img 
               src={qube2Right.src} 
               alt="" 
               className='qube-size-3xl-monitor absolute bottom-0 right-0 opacity-70 translate-y-1 translate-x-1 group-hover:scale-130 group-hover:translate-x-7 transition-transform duration-300 ease-out'
+              draggable={false}
+              onDragStart={(e) => e.preventDefault()}
+              onMouseDown={(e) => e.preventDefault()}
             />
           </div>
           <div className="
@@ -123,7 +135,7 @@ function Portfolio() {
             flex justify-center items-center
             bg-[url('../assets/gradient-left.png')] bg-cover bg-center
             rounded-4xl border border-[#FF6600]/50
-            overflow-hidden
+            overflow-hidden cursor-pointer
           ">
             <div className="h-1/3 w-1/2 flex justify-center items-center">
               <div className="
@@ -162,11 +174,17 @@ function Portfolio() {
               src={qube1Left.src} 
               alt="" 
               className='qube-size-3xl-monitor absolute top-0 left-0 opacity-70 -translate-y-1 -translate-x-1 group-hover:scale-130 group-hover:-translate-x-7 transition-transform duration-300 ease-out'
+              draggable={false}
+              onDragStart={(e) => e.preventDefault()}
+              onMouseDown={(e) => e.preventDefault()}
             />
             <img 
               src={qube1Right.src} 
               alt="" 
               className='qube-size-3xl-monitor absolute bottom-0 right-0 opacity-70 translate-y-4 translate-x-4 group-hover:scale-130 group-hover:translate-x-7 transition-transform duration-300 ease-out'
+              draggable={false}
+              onDragStart={(e) => e.preventDefault()}
+              onMouseDown={(e) => e.preventDefault()}
             />
           </div>
           <div className="
@@ -174,7 +192,7 @@ function Portfolio() {
             flex justify-center items-center
             bg-[url('../assets/gradient-right.png')] bg-cover bg-center
             rounded-4xl border border-[#FF6600]/50
-            overflow-hidden
+            overflow-hidden cursor-pointer
           ">
             <div className="h-1/3 w-1/2 flex justify-center items-center">
               <div className="
@@ -213,11 +231,17 @@ function Portfolio() {
               src={qube2Left.src} 
               alt="" 
               className='qube-size-3xl-monitor absolute top-0 left-0 opacity-70 -translate-y-4 -translate-x-4 group-hover:scale-130 group-hover:-translate-x-7 transition-transform duration-300 ease-out'
+              draggable={false}
+              onDragStart={(e) => e.preventDefault()}
+              onMouseDown={(e) => e.preventDefault()}
             />
             <img 
               src={qube2Right.src} 
               alt="" 
               className='qube-size-3xl-monitor absolute bottom-0 right-0 opacity-70 translate-y-1 translate-x-1 group-hover:scale-130 group-hover:translate-x-7 transition-transform duration-300 ease-out'
+              draggable={false}
+              onDragStart={(e) => e.preventDefault()}
+              onMouseDown={(e) => e.preventDefault()}
             />
           </div>
         </div>
