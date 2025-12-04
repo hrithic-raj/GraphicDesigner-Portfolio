@@ -6,7 +6,7 @@ import qube2Left from '../assets/qubes2-left.png';
 import qube2Right from '../assets/qubes2-right.png';
 function Portfolio() {
   return (
-    <div id="portfolio" className="relative h-screen w-full bg-[#00000] border-b-2 pt-10">
+    <div id="portfolio" className="relative h-screen w-full bg-[#00000] pt-10 overflow-hidden">
       <img 
         src={glowMiddle.src}
         draggable={false}

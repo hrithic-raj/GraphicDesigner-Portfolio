@@ -1,7 +1,7 @@
 import aboutPhoto from '../assets/about.jpg';
 function About() {
   return (
-    <div id="about" className="h-screen w-full bg-[#00000] pt-10">
+    <div id="about" className="h-screen w-full bg-[#00000] pt-10 overflow-hidden">
       <div className="flex justify-center items-center h-full w-full">
         {/* About Box */}
         <div className="flex justify-between items-center min-h-1/2 h-[60%] w-[70%]">
