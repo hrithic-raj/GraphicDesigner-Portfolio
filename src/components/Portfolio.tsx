@@ -1,5 +1,9 @@
 'use client'
 import glowMiddle from '../assets/glow-last-middle.png';
+import qube1Left from '../assets/qubes1-left.png';
+import qube1Right from '../assets/qubes1-right.png';
+import qube2Left from '../assets/qubes2-left.png';
+import qube2Right from '../assets/qubes2-right.png';
 function Portfolio() {
   return (
     <div id="portfolio" className="relative h-screen w-full bg-[#00000] border-b-2 pt-10">
@@ -13,10 +17,11 @@ function Portfolio() {
       <div className="flex justify-center items-center h-full w-full">
         <div className="grid grid-cols-2 grid-rows-2 h-[60%] w-3/4 gap-5">
           <div className="
-            group
+            group relative
             flex justify-center items-center
             bg-[url('../assets/gradient-left.png')] bg-cover bg-center
             rounded-4xl border border-[#FF6600]/50
+            overflow-hidden
           ">
             <div className="h-1/3 w-1/2 flex justify-center items-center">
               <div className="
@@ -51,12 +56,23 @@ function Portfolio() {
 
               </div>
             </div>
+            <img 
+              src={qube1Left.src} 
+              alt="" 
+              className='absolute top-0 left-0 opacity-70 -translate-y-1 -translate-x-1 group-hover:scale-130 group-hover:-translate-x-7 transition-transform duration-300 ease-out'
+            />
+            <img 
+              src={qube1Right.src} 
+              alt="" 
+              className='absolute bottom-0 right-0 opacity-70 translate-y-4 translate-x-4 group-hover:scale-130 group-hover:translate-x-7 transition-transform duration-300 ease-out'
+            />
           </div>
           <div className="
-            group
+            group relative
             flex justify-center items-center
             bg-[url('../assets/gradient-right.png')] bg-cover bg-center
             rounded-4xl border border-[#FF6600]/50
+            overflow-hidden
           ">
             <div className="h-1/3 w-1/2 flex justify-center items-center">
               <div className="
@@ -91,12 +107,23 @@ function Portfolio() {
 
               </div>
             </div>
+            <img 
+              src={qube2Left.src} 
+              alt="" 
+              className='absolute top-0 left-0 opacity-70 -translate-y-4 -translate-x-4 group-hover:scale-130 group-hover:-translate-x-7 transition-transform duration-300 ease-out'
+            />
+            <img 
+              src={qube2Right.src} 
+              alt="" 
+              className='absolute bottom-0 right-0 opacity-70 translate-y-1 translate-x-1 group-hover:scale-130 group-hover:translate-x-7 transition-transform duration-300 ease-out'
+            />
           </div>
           <div className="
-            group
+            group relative
             flex justify-center items-center
             bg-[url('../assets/gradient-left.png')] bg-cover bg-center
             rounded-4xl border border-[#FF6600]/50
+            overflow-hidden
           ">
             <div className="h-1/3 w-1/2 flex justify-center items-center">
               <div className="
@@ -131,12 +158,23 @@ function Portfolio() {
 
               </div>
             </div>
+            <img 
+              src={qube1Left.src} 
+              alt="" 
+              className='absolute top-0 left-0 opacity-70 -translate-y-1 -translate-x-1 group-hover:scale-130 group-hover:-translate-x-7 transition-transform duration-300 ease-out'
+            />
+            <img 
+              src={qube1Right.src} 
+              alt="" 
+              className='absolute bottom-0 right-0 opacity-70 translate-y-4 translate-x-4 group-hover:scale-130 group-hover:translate-x-7 transition-transform duration-300 ease-out'
+            />
           </div>
           <div className="
-            group
+            group relative
             flex justify-center items-center
             bg-[url('../assets/gradient-right.png')] bg-cover bg-center
             rounded-4xl border border-[#FF6600]/50
+            overflow-hidden
           ">
             <div className="h-1/3 w-1/2 flex justify-center items-center">
               <div className="
@@ -171,6 +209,16 @@ function Portfolio() {
 
               </div>
             </div>
+            <img 
+              src={qube2Left.src} 
+              alt="" 
+              className='absolute top-0 left-0 opacity-70 -translate-y-4 -translate-x-4 group-hover:scale-130 group-hover:-translate-x-7 transition-transform duration-300 ease-out'
+            />
+            <img 
+              src={qube2Right.src} 
+              alt="" 
+              className='absolute bottom-0 right-0 opacity-70 translate-y-1 translate-x-1 group-hover:scale-130 group-hover:translate-x-7 transition-transform duration-300 ease-out'
+            />
           </div>
         </div>
       </div>
