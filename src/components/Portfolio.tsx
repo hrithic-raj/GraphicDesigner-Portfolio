@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import glowMiddle from '../assets/glow-last-middle.png';
 import qube1Left from '../assets/qubes1-left.png';
 import qube1Right from '../assets/qubes1-right.png';

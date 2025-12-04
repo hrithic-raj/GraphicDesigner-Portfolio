@@ -1,11 +1,16 @@
-'use client'
+'use client';
 import bg from '../assets/To site 1.jpg';
 import cutPhoto from '../assets/To site cut.png';
 import glowLeft from '../assets/glow-left.png';
 import glowRight from '../assets/glow-right.png';
 import linesLeft from '../assets/left1.png';
 import linesRight from '../assets/right1.png';
-import TextPressure from "@/components/TextPressure";
+import dynamic from "next/dynamic";
+
+const TextPressure = dynamic(() => import("@/components/TextPressure"), {
+  ssr: false,
+});
+
 
 function Home() {
   return (
@@ -104,6 +109,7 @@ function Home() {
                 </div>
             </div>
 
+            {/* bottom skill section */}
             <div className="flex gap-36 justify-center items-center absolute bottom-0 left-1/8 bg-[#0F0F0F] w-3/4 h-14 z-10">
                 <p className="font-normal text-[16px] leading-5 tracking-[0.02em] text-[#676767] text-center font-montserrat">
                     Photoshop

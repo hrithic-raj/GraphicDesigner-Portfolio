@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import icon1 from '../assets/footer-icon1.png'
 import icon2 from '../assets/footer-icon2.png'
 import icon3 from '../assets/footer-icon3.png'

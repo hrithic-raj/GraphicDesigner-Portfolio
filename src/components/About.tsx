@@ -1,3 +1,4 @@
+'use client';
 import aboutPhoto from '../assets/about.jpg';
 function About() {
   return (
