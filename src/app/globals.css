@@ -210,3 +210,9 @@ body {
     font-size: 65px; /* monitor size */
   }
 }
+
+@media (min-width: 1700px) {
+  .qube-size-3xl-monitor {
+    width: 23%;
+  }
+}

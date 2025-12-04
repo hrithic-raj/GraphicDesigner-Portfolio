@@ -59,12 +59,12 @@ function Portfolio() {
             <img 
               src={qube1Left.src} 
               alt="" 
-              className='absolute top-0 left-0 opacity-70 -translate-y-1 -translate-x-1 group-hover:scale-130 group-hover:-translate-x-7 transition-transform duration-300 ease-out'
+              className='qube-size-3xl-monitor absolute top-0 left-0 opacity-70 -translate-y-1 -translate-x-1 group-hover:scale-130 group-hover:-translate-x-7 transition-transform duration-300 ease-out'
             />
             <img 
               src={qube1Right.src} 
               alt="" 
-              className='absolute bottom-0 right-0 opacity-70 translate-y-4 translate-x-4 group-hover:scale-130 group-hover:translate-x-7 transition-transform duration-300 ease-out'
+              className='qube-size-3xl-monitor absolute bottom-0 right-0 opacity-70 translate-y-4 translate-x-4 group-hover:scale-130 group-hover:translate-x-7 transition-transform duration-300 ease-out'
             />
           </div>
           <div className="
@@ -110,12 +110,12 @@ function Portfolio() {
             <img 
               src={qube2Left.src} 
               alt="" 
-              className='absolute top-0 left-0 opacity-70 -translate-y-4 -translate-x-4 group-hover:scale-130 group-hover:-translate-x-7 transition-transform duration-300 ease-out'
+              className='qube-size-3xl-monitor absolute top-0 left-0 opacity-70 -translate-y-4 -translate-x-4 group-hover:scale-130 group-hover:-translate-x-7 transition-transform duration-300 ease-out'
             />
             <img 
               src={qube2Right.src} 
               alt="" 
-              className='absolute bottom-0 right-0 opacity-70 translate-y-1 translate-x-1 group-hover:scale-130 group-hover:translate-x-7 transition-transform duration-300 ease-out'
+              className='qube-size-3xl-monitor absolute bottom-0 right-0 opacity-70 translate-y-1 translate-x-1 group-hover:scale-130 group-hover:translate-x-7 transition-transform duration-300 ease-out'
             />
           </div>
           <div className="
@@ -161,12 +161,12 @@ function Portfolio() {
             <img 
               src={qube1Left.src} 
               alt="" 
-              className='absolute top-0 left-0 opacity-70 -translate-y-1 -translate-x-1 group-hover:scale-130 group-hover:-translate-x-7 transition-transform duration-300 ease-out'
+              className='qube-size-3xl-monitor absolute top-0 left-0 opacity-70 -translate-y-1 -translate-x-1 group-hover:scale-130 group-hover:-translate-x-7 transition-transform duration-300 ease-out'
             />
             <img 
               src={qube1Right.src} 
               alt="" 
-              className='absolute bottom-0 right-0 opacity-70 translate-y-4 translate-x-4 group-hover:scale-130 group-hover:translate-x-7 transition-transform duration-300 ease-out'
+              className='qube-size-3xl-monitor absolute bottom-0 right-0 opacity-70 translate-y-4 translate-x-4 group-hover:scale-130 group-hover:translate-x-7 transition-transform duration-300 ease-out'
             />
           </div>
           <div className="
@@ -212,12 +212,12 @@ function Portfolio() {
             <img 
               src={qube2Left.src} 
               alt="" 
-              className='absolute top-0 left-0 opacity-70 -translate-y-4 -translate-x-4 group-hover:scale-130 group-hover:-translate-x-7 transition-transform duration-300 ease-out'
+              className='qube-size-3xl-monitor absolute top-0 left-0 opacity-70 -translate-y-4 -translate-x-4 group-hover:scale-130 group-hover:-translate-x-7 transition-transform duration-300 ease-out'
             />
             <img 
               src={qube2Right.src} 
               alt="" 
-              className='absolute bottom-0 right-0 opacity-70 translate-y-1 translate-x-1 group-hover:scale-130 group-hover:translate-x-7 transition-transform duration-300 ease-out'
+              className='qube-size-3xl-monitor absolute bottom-0 right-0 opacity-70 translate-y-1 translate-x-1 group-hover:scale-130 group-hover:translate-x-7 transition-transform duration-300 ease-out'
             />
           </div>
         </div>
