@@ -108,7 +108,7 @@ const ClickSpark = ({
 
   return (
     <div className="relative w-full h-full" onClick={onClick}>
-      <canvas ref={canvasRef} className="absolute inset-0 pointer-events-none" />
+      <canvas ref={canvasRef} className="absolute inset-0 pointer-events-none z-9999" />
       {children}
     </div>
   );
