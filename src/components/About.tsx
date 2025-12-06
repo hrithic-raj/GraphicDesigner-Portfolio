@@ -32,14 +32,14 @@ function About() {
 
               {/* buttons */}
               <div className='flex justify-between h-[20%] gap-5'>
-                <button className='flex justify-center items-center bg-[#FF6600] w-1/2 h-full rounded-[36px] cursor-pointer text-[34px] hover:text-[30px]'>
+                <button className='flex justify-center items-center bg-[#FF6600] w-1/2 h-full rounded-[36px] cursor-pointer text-[30px] hover:text-[25px]'>
                   <span
                     className='font-[montserrat] font-normal text-center tracking-[0.02em] text-white'
                   >
                     Resume
                   </span>
                 </button>
-                <button className='flex justify-center items-center border border-[#FF6600] w-1/2 h-full rounded-[36px] cursor-pointer text-[34px] hover:text-[30px]'>
+                <button className='flex justify-center items-center border border-[#FF6600] w-1/2 h-full rounded-[36px] cursor-pointer text-[30px] hover:text-[25px]'>
                   <span
                     className='font-[montserrat] font-normal text-center tracking-[0.02em] text-white'
                   >

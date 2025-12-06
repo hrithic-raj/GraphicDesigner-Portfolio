@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Montserrat } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import PageLoaderWrapper from "@/components/PageLoaderWrapper";
+import ClickSpark from "@/components/ClickSpark";
 
 const cabinetGrotesk = localFont({
   src: [
@@ -62,7 +63,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} ${cabinetGrotesk.variable} antialiased`}
       >
         <PageLoaderWrapper>
-        {children}
+          <ClickSpark color="#FF6600" count={8} radius={18}>
+            {children}
+          </ClickSpark>
         </PageLoaderWrapper>
       </body>
     </html>
